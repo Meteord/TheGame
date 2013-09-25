@@ -1,11 +1,9 @@
 package edu.hm.jaumann.data;
 
-import com.badlogic.gdx.Game;
-
 /**
  * /*
  * Autor: Michael
- * Date: 21.09.13
+ * Date: 22.09.13
  * Projektname: $(PROJEKT_NAME)
  * Deskription:
  * Package: $(PACKAGE_NAME)
@@ -15,10 +13,5 @@ import com.badlogic.gdx.Game;
  * getestet unter Win7 Home Premium
  * Created with IntelliJ IDEA.
  */
-public class GameMain extends Game {
-    @Override
-    public void create()
-    {
-
-    }
+public class Staatsform {
 }

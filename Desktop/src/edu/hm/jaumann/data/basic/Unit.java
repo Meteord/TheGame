@@ -1,22 +1,10 @@
 package edu.hm.jaumann.data.basic;
 
+import com.badlogic.gdx.math.Matrix3;
 import com.badlogic.gdx.math.Vector2;
 
 import java.util.Collection;
 
-/**
- * /*
- * Autor: Michael
- * Date: 22.09.13
- * Projektname: $(PROJEKT_NAME)
- * Deskription:
- * Package: $(PACKAGE_NAME)
- * Hochschule München, Fakultät 07 für Mathematik und Informatik
- * Praktikum Softwareentwicklung II,
- * Studiengruppe IF2A java version 1.7.0_07,
- * getestet unter Win7 Home Premium
- * Created with IntelliJ IDEA.
- */
 public class Unit extends VulnerableObjekt {
     /**
      * Geschwindkigkeit des Objektes.
@@ -29,6 +17,18 @@ public class Unit extends VulnerableObjekt {
     public Unit(final float y, final float x, final int level, final String name, final Collection<Effe> appliedOnMe, final float speed) {
         super(y, x, level, name, appliedOnMe);
         this.speed = speed;
+    }
+
+    public void move(final float millis)
+    {
+        float distance = getLoc().dst(destination);
+        Vector2 direction = destination.sub(getLoc());
+        direction.nor();
+        final float factor = millis *speed;
+        if(factor< distance)
+            setLoc(getLoc().add(direction.mul(new Matrix3().scale(factor,factor))));
+        else
+            setLoc(destination);
     }
 
 }

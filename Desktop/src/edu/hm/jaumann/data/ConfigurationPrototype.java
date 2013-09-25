@@ -34,6 +34,8 @@ public class ConfigurationPrototype {
         ownAbilitys = abilities;
     }
 
+
+
     public int getSpeed() {
         return speed;
     }
@@ -64,5 +66,19 @@ public class ConfigurationPrototype {
 
     public Effe<VulnerableObjekt>[] getOwnAbilitys() {
         return ownAbilitys;
+    }
+
+    public ConfigurationPrototype comibne(final ConfigurationPrototype other, final int level, final DamageTypes type)
+    {
+        final int combindedlength = this.getOwnAbilitys().length+other.getOwnAbilitys().length-1;
+        final Effe<VulnerableObjekt>[] abilitesCombined = new Effe[combindedlength];
+        for( int index = getOwnAbilitys().length-1; index>= 0; index--)
+             abilitesCombined[index]= getOwnAbilitys()[index];
+
+        for( int index = combindedlength; index>= getOwnAbilitys().length-1; index--)
+            abilitesCombined[index]= other.getOwnAbilitys()[index];
+        return new ConfigurationPrototype(this.getSpeed()+other.getSpeed(),level,this.getAttack()+other.getAttack(),
+                                          this.getRange()+other.getRange(), this.getArmour()+other.getArmour(),type,
+                                           this.getLp()+other.getLp(),abilitesCombined);
     }
 }

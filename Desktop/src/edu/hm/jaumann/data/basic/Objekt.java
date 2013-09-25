@@ -9,7 +9,7 @@ public class Objekt {
     /**
      * Postion des Objektes;
      */
-    private final Vector2 loc;
+    private Vector2 loc;
     /**Legt fest ob die Einheit für den Gegner sichtbar ist.
      */
     private boolean invisivible;
@@ -50,6 +50,10 @@ public class Objekt {
 		return loc;
 	}
 
+    public void setLoc(final Vector2 newLoc)
+    {
+        loc = newLoc;
+    }
 
     
 }

@@ -7,9 +7,12 @@ import java.util.Collection;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 
+import edu.hm.jaumann.data.ConfigurationPrototype;
 import edu.hm.jaumann.data.DamageTypes;
 import edu.hm.jaumann.data.Data;
 import edu.hm.jaumann.data.functionInterface.ProtoGet;
+
+import javax.security.auth.login.Configuration;
 
 public class VulnerableObjekt extends Objekt {
 
@@ -24,13 +27,13 @@ public class VulnerableObjekt extends Objekt {
     /**
      * Verbindung mit dem Prototyp des Objektes, der Alle noetigen Informationen bereitstellt.
      */
-    private final ProtoGet protoLink;
+    private final ProtoGet<ConfigurationPrototype> protoLink;
     /**
      * Alle Effekte die Tonnenschwer auf diesem Objekt lasten.
      */
     private Collection<Effe> appliedOnMe;
 
-    private final int[] ownEffesRunTime;
+    private final Timer[] ownEffesRunTime;
    
 
     public VulnerableObjekt(float y, float x, int level, String name,
@@ -41,9 +44,9 @@ public class VulnerableObjekt extends Objekt {
         armour = protoLink.get().getArmour();
         this.appliedOnMe.addAll(appliedOnMe);
         final int length =protoLink.get().getOwnAbilitys().length;
-        ownEffesRunTime = new int[length];
+        ownEffesRunTime = new Timer[length];
         for(int time =0; time <=length;time++)
-            ownEffesRunTime[time] = protoLink.get().getOwnAbilitys()[time].getTime();
+            ownEffesRunTime[time] = new Timer(protoLink.get().getOwnAbilitys()[time].getTime());
 	}
 
 	private boolean setLp(final int value)
@@ -80,12 +83,16 @@ public class VulnerableObjekt extends Objekt {
     }
 
     /**
-     *
+     * Aktiviert einen Effekt falls der einsatzbereit ist.
      * @param number
      */
     public void applyEffe(final int number,final VulnerableObjekt destination)
     {
-          protoLink.get().getOwnAbilitys()[number].apply(destination);
+          if(ownEffesRunTime[number].getTime() == 0)
+          {
+                protoLink.get().getOwnAbilitys()[number].apply(destination);
+                ownEffesRunTime[number].resetTime();
+          }
 
     }
 
@@ -109,6 +116,19 @@ public class VulnerableObjekt extends Objekt {
                return effe.getCondition().test(effe,temp);
             }
         }) ;
+    }
+
+    public Timer getOwnEffesRunTime(final int index) {
+        return ownEffesRunTime[index];
+    }
+
+    /**
+     * Anzahl der eigenen Effekte.
+     * @return die Anahl.
+     */
+    public int getEffeCount()
+    {
+        return ownEffesRunTime.length;
     }
 
 }

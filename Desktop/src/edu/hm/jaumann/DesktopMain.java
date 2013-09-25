@@ -1,8 +1,8 @@
 package edu.hm.jaumann;
 
+import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
-import edu.hm.jaumann.data.GameMain;
 
 /**
  * /*
@@ -19,11 +19,18 @@ import edu.hm.jaumann.data.GameMain;
  */
 public class DesktopMain {
     public static void main(String[] args) {
-        LwjglApplicationConfiguration cfg = new LwjglApplicationConfiguration();
-        cfg.title = "TheGame";
-        cfg.useGL20 = true;
-        cfg.width = 800;
-        cfg.height = 480;
-        new LwjglApplication(new GameMain(), cfg);
+        ApplicationListener listener = new TheGame();
+
+        // define the window's title
+        String title = "TheGame";
+
+        // define the window's size
+        final int width = 800, height = 480;
+
+        // whether to use OpenGL ES 2.0
+        boolean useOpenGLES2 = false;
+
+        // create the game
+        new LwjglApplication( listener, title, width, height, useOpenGLES2 );
     }
 }
