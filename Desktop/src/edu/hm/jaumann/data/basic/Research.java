@@ -17,7 +17,7 @@ public class Research {
     /**
      * Name des Zielobjekts der Erforschung.
      */
-    private final String destination;
+    private final String[] destination;
     /**
      * Name der Erforschung.
      */
@@ -27,7 +27,7 @@ public class Research {
      */
     private final PriecingBundle prize;
 
-    public Research(int researchTime, ConfigurationPrototype protos, String destination, String name, PriecingBundle prize) {
+    public Research(int researchTime, ConfigurationPrototype protos, String[] destination, String name, PriecingBundle prize) {
         this.researchTime = researchTime;
         this.protos = protos;
         this.destination = destination;
@@ -39,7 +39,7 @@ public class Research {
         return protos;
     }
 
-    public String getDestination() {
+    public String[] getDestination() {
         return destination;
     }
 

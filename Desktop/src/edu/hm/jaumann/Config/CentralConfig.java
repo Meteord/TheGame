@@ -1,12 +1,9 @@
-package edu.hm.jaumann;
-
-import com.badlogic.gdx.Game;
-import edu.hm.jaumann.View.MainMenu;
+package edu.hm.jaumann.Config;
 
 /**
  * /*
  * Autor: Michael
- * Date: 21.09.13
+ * Date: 26.09.13
  * Projektname: $(PROJEKT_NAME)
  * Deskription:
  * Package: $(PACKAGE_NAME)
@@ -16,10 +13,5 @@ import edu.hm.jaumann.View.MainMenu;
  * getestet unter Win7 Home Premium
  * Created with IntelliJ IDEA.
  */
-public class GameMain extends Game {
-    @Override
-    public void create()
-    {
-        setScreen(new MainMenu());
-    }
+public class CentralConfig {
 }

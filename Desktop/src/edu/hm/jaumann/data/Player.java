@@ -2,6 +2,7 @@ package edu.hm.jaumann.data;
 
 import edu.hm.jaumann.data.basic.Timer;
 import edu.hm.jaumann.data.basic.Unit;
+import edu.hm.jaumann.data.functionInterface.ObjektType;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -14,7 +15,7 @@ public class Player {
     /**
      * Enthält den Namen der Begonnen erforschung und die Zeit bis  die Erfosrchung verfuegbar ist.
      */
-    private Map<String,Timer>researchDone;
+    private Map<String, Timer> researchDone;
     /**
      * Sein König. Mit ihm steigt und sinkt der Stern seines Empires.
      */
@@ -35,7 +36,7 @@ public class Player {
         this.stateOfart = stateOfart;
         this.king = king;
         this.resources = resources;
-        protoFilter.put("general",new ConfigurationPrototype(0,0,0,0,0, DamageTypes.Magic,0, null));
+        protoFilter.put("general",new ConfigurationPrototype(0, ObjektType.Item, 0,0,0,0, DamageTypes.Magic,0, null, "unnowkn"));
     }
 
     public PriecingBundle getResources() {

@@ -2,7 +2,12 @@ package edu.hm.jaumann;
 
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
-import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
+import edu.hm.jaumann.Config.ObjektXMLmaker;
+import edu.hm.jaumann.data.ConfigurationPrototype;
+import edu.hm.jaumann.data.DamageTypes;
+import edu.hm.jaumann.data.PriecingBundle;
+import edu.hm.jaumann.data.basic.Research;
+import edu.hm.jaumann.data.functionInterface.ObjektType;
 
 /**
  * /*
@@ -19,6 +24,9 @@ import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
  */
 public class DesktopMain {
     public static void main(String[] args) {
+       final ConfigurationPrototype test =  new ConfigurationPrototype(10, ObjektType.Unit, 10 ,10 ,10 ,10, DamageTypes.Magic, 100, null, "research") ;
+        new ObjektXMLmaker().writePrototype(test);
+        new ObjektXMLmaker().writeResearch(new Research(10,test,new String[] {test.getName(),"Hans"},"Improved Magician",new PriecingBundle(100,20,0,0,200)));
         ApplicationListener listener = new TheGame();
 
         // define the window's title

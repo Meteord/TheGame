@@ -18,9 +18,10 @@ import com.badlogic.gdx.graphics.GL20;
  * getestet unter Win7 Home Premium
  * Created with IntelliJ IDEA.
  */
-public class TheGame implements ApplicationListener {
+public class TheGame extends ApplicationListener {
     public static final String LOG=   TheGame.class.getSimpleName();
     private FPSLogger fpsLogger;
+    private ScreenManager manage;
     @Override
     public void create() {
         Gdx.app.log( TheGame.LOG, "Creating game" );
@@ -38,7 +39,6 @@ public class TheGame implements ApplicationListener {
         // the following code clears the screen with the given RGB color (green)
         Gdx.gl.glClearColor( 0f, 1f, 0f, 1f );
         Gdx.gl.glClear( GL20.GL_COLOR_BUFFER_BIT );
-
         // output the current FPS
         fpsLogger.log();
     }

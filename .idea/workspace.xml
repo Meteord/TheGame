@@ -2,30 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0244adf-a7a6-4774-b907-5c63d1da58db" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/Block.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/Building.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/Player.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/Research.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/Staatsform.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/TheGame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/Timer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/seasons.java" />
-      <change type="MOVED" beforePath="C:\Users\Michael\Desktop\TheGame\Main\src\edu\hm\jaumann\data\GameMain.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/GameMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/View/Screens/AbstractScreen.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/functionInterface/ObjektType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/Config/ObjektXMLmaker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/ScreenManager.java" />
+      <change type="MOVED" beforePath="C:\Users\Michael\Desktop\TheGame\Desktop\src\edu\hm\jaumann\GameMain.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/Config/CentralConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/Block.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/Block.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/ConfigurationPrototype.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/ConfigurationPrototype.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/Data.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/Data.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/DesktopMain.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/DesktopMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/Objekt.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/Objekt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/functionInterface/ProtoGet.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/functionInterface/ProtoGet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/Unit.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/Unit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/VulnerableObjekt.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/VulnerableObjekt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/Player.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/Player.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/Research.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/Research.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/TheGame.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/TheGame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TheGAme.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/GameMain.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1379942990686" ignored="false" />
+    <file path="/GameMain.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1380446266052" ignored="false" />
     <file path="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1379774773411" ignored="false" />
-    <file path="/DesktopMain.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1379944354605" ignored="false" />
-    <file path="/fragment.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1379942801506" ignored="false" />
+    <file path="/DesktopMain.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1380202806472" ignored="false" />
+    <file path="/fragment.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1380194921655" ignored="false" />
     <file path="/a.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1379775921163" ignored="false" />
     <file path="/VulnerableObjekt.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1380100772453" ignored="false" />
     <file path="/EffeFactory.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1379776152325" ignored="false" />
@@ -37,12 +33,12 @@
     <file path="/Condition.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1379843066462" ignored="false" />
     <file path="/CounterEffe.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1379843423973" ignored="false" />
     <file path="/Unit.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1379859785504" ignored="false" />
-    <file path="/Dummy.txt" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1380099169869" ignored="false" />
+    <file path="/Dummy.txt" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1380464085821" ignored="false" />
     <file path="/Objekt.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1379859734199" ignored="false" />
-    <file path="/Player.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1380108361299" ignored="false" />
-    <file path="/ConfigurationPrototype.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1379941245249" ignored="false" />
-    <file path="/MainMenu.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1380015359754" ignored="false" />
-    <file path="/TheGame.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1379944278236" ignored="false" />
+    <file path="/Player.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1380195442776" ignored="false" />
+    <file path="/ConfigurationPrototype.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1380195912398" ignored="false" />
+    <file path="/MainMenu.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1380465323508" ignored="false" />
+    <file path="/TheGame.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1380464952004" ignored="false" />
     <file path="/Block.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1379947148696" ignored="false" />
     <file path="/Building.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1380104578562" ignored="false" />
     <file path="/ProtoGet.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1380013635229" ignored="false" />
@@ -50,6 +46,10 @@
     <file path="/Research.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1380104000265" ignored="false" />
     <file path="/Timer.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1380100484209" ignored="false" />
     <file path="/seasons.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1380106141062" ignored="false" />
+    <file path="/ObjektXMLmaker.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1380202961586" ignored="false" />
+    <file path="/ObjektType.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1380195262729" ignored="false" />
+    <file path="/AbstractScreen.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1380284592279" ignored="false" />
+    <file path="/ScreenManager.java" changelist="c0244adf-a7a6-4774-b907-5c63d1da58db" time="1380465067296" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,46 +110,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ConfigurationPrototype.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ConfigurationPrototype.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/ConfigurationPrototype.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="13" selection-start="2020" selection-end="2020" vertical-scroll-proportion="0.5740319">
+            <state line="41" column="25" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Data.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/Data.java">
+      <file leaf-file-name="DesktopMain.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/DesktopMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="16" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
+            <state line="39" column="0" selection-start="1468" selection-end="1468" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Objekt.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/Objekt.java">
+      <file leaf-file-name="MainMenu.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/View/MainMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="4" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0">
+            <state line="12" column="40" selection-start="404" selection-end="410" vertical-scroll-proportion="0.037117902">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CentralConfig.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/Config/CentralConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="26" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seasons.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/seasons.java">
+      <file leaf-file-name="ObjektXMLmaker.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/Config/ObjektXMLmaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+            <state line="119" column="0" selection-start="4669" selection-end="4669" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Staatsform.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/Staatsform.java">
+      <file leaf-file-name="AbstractScreen.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/View/Screens/AbstractScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="26" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
+            <state line="161" column="5" selection-start="4038" selection-end="4038" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TheGame.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/TheGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="33" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -158,16 +178,7 @@
       <file leaf-file-name="Player.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="27" selection-start="1735" selection-end="1735" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Building.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/Building.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="12" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0">
+            <state line="38" column="125" selection-start="1487" selection-end="1487" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -176,27 +187,16 @@
       <file leaf-file-name="Research.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/Research.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="38" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VulnerableObjekt.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/VulnerableObjekt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="7" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.0">
+            <state line="44" column="0" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Timer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/Timer.java">
+      <file leaf-file-name="ScreenManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/ScreenManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="127" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0">
+            <state line="15" column="31" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -221,22 +221,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/ConfigurationPrototype.java" />
-        <option value="$PROJECT_DIR$/Main/src/edu/hm/jaumann/data/GameMainTest.groovy" />
-        <option value="$PROJECT_DIR$/Main/src/edu/hm/jaumann/data/GameMain.java" />
-        <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/TheGame.java" />
-        <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/DesktopMain.java" />
-        <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/GameMain.java" />
-        <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/Block.java" />
-        <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/functionInterface/ProtoGet.java" />
-        <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/Data.java" />
-        <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/View/MainMenu.java" />
-        <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/Timer.java" />
         <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/VulnerableObjekt.java" />
-        <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/Research.java" />
         <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/Building.java" />
         <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/seasons.java" />
+        <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/Block.java" />
+        <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/functionInterface/ObjektType.java" />
+        <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/ConfigurationPrototype.java" />
         <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/Player.java" />
+        <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/Research.java" />
+        <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/Config/ObjektXMLmaker.java" />
+        <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/DesktopMain.java" />
+        <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/View/Screens/AbstractScreen.java" />
+        <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/Config/Assets.java" />
+        <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/GameMain.java" />
+        <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/TheGame.java" />
+        <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/ScreenManager.java" />
+        <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/View/MainMenu.java" />
       </list>
     </option>
   </component>
@@ -435,8 +435,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -505,32 +503,106 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheGAme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Desktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jaumann" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheGAme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Desktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jaumann" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Screens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Project" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="39" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="47" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="vcs.Git" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="53" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_015aa71ef18c047ce8509ffb2f9e4bb0e3e73f13/bin/git.exe" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="51" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="480" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="492" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="50" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="46" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="options.lastSelected" value="org.infernus.idea.checkstyle.CheckStyleConfigurable" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -733,11 +805,11 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14991482" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3037879" sideWeight="0.31516185" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.225" sideWeight="0.32027256" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33049405" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -746,11 +818,11 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3037879" sideWeight="0.5349233" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14991482" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.225" sideWeight="0.54003406" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13969335" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3535188" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -821,115 +893,105 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/DamageTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="12" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/factorys/EffeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/Block.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="8" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/functionInterface/ProtoGet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="5" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/Unit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="13" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/Location.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="22" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/PriecingBundle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/View/MainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="14" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/Timer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="127" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/VulnerableObjekt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="7" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="12" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/Data.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="16" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="13" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/Building.java">
+    <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/functionInterface/ObjektType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="12" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="60" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/Research.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="38" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/Objekt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="4" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/seasons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/Staatsform.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="26" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
+        <state line="44" column="0" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="27" selection-start="1735" selection-end="1735" vertical-scroll-proportion="0.0">
+        <state line="38" column="125" selection-start="1487" selection-end="1487" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/ConfigurationPrototype.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="13" selection-start="2020" selection-end="2020" vertical-scroll-proportion="0.5740319">
+        <state line="41" column="25" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/Config/CentralConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="26" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/Config/ObjektXMLmaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="0" selection-start="4669" selection-end="4669" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/TheGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="33" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/ScreenManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="31" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/DesktopMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="1468" selection-end="1468" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/View/Screens/AbstractScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="161" column="5" selection-start="4038" selection-end="4038" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/View/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="40" selection-start="404" selection-end="410" vertical-scroll-proportion="0.037117902">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

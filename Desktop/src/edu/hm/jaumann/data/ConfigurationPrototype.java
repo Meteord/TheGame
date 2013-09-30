@@ -3,10 +3,13 @@ package edu.hm.jaumann.data;
 
 import edu.hm.jaumann.data.basic.Effe;
 import edu.hm.jaumann.data.basic.VulnerableObjekt;
+import edu.hm.jaumann.data.functionInterface.ObjektType;
 
 public class ConfigurationPrototype {
 
     private final int speed;
+
+    private final ObjektType objekto;
 
     private final int level;
 
@@ -22,9 +25,13 @@ public class ConfigurationPrototype {
 
     private final Effe<VulnerableObjekt>[] ownAbilitys;
 
-    public ConfigurationPrototype(final int speed, final int level, final int attack, final int range,
-                                  final int armour, final DamageTypes type, final int livepoints, final Effe<VulnerableObjekt>[] abilities) {
+    private final String name;
+
+
+    public ConfigurationPrototype(final int speed, ObjektType objekto, final int level, final int attack, final int range,
+                                  final int armour, final DamageTypes type, final int livepoints, final Effe<VulnerableObjekt>[] abilities, String name) {
         this.speed = speed;
+        this.objekto = objekto;
         this.level = level;
         this.attack = attack;
         this.range = range;
@@ -32,6 +39,7 @@ public class ConfigurationPrototype {
         this.type = type;
         lp = livepoints;
         ownAbilitys = abilities;
+        this.name = name;
     }
 
 
@@ -46,6 +54,10 @@ public class ConfigurationPrototype {
 
     public int getRange() {
         return range;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public int getArmour() {
@@ -77,8 +89,12 @@ public class ConfigurationPrototype {
 
         for( int index = combindedlength; index>= getOwnAbilitys().length-1; index--)
             abilitesCombined[index]= other.getOwnAbilitys()[index];
-        return new ConfigurationPrototype(this.getSpeed()+other.getSpeed(),level,this.getAttack()+other.getAttack(),
+        return new ConfigurationPrototype(this.getSpeed()+other.getSpeed(), objekto, level,this.getAttack()+other.getAttack(),
                                           this.getRange()+other.getRange(), this.getArmour()+other.getArmour(),type,
-                                           this.getLp()+other.getLp(),abilitesCombined);
+                                           this.getLp()+other.getLp(),abilitesCombined, name);
+    }
+
+    public ObjektType getObjekto() {
+        return objekto;
     }
 }
