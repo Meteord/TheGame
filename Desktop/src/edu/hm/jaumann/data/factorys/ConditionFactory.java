@@ -3,7 +3,7 @@ package edu.hm.jaumann.data.factorys;
 import edu.hm.jaumann.data.basic.CounterEffe;
 import edu.hm.jaumann.data.basic.Effe;
 import edu.hm.jaumann.data.basic.UnlimitedEffe;
-import edu.hm.jaumann.data.basic.VulnerableObjekt;
+import edu.hm.jaumann.data.basic.base.livingObjekt;
 import edu.hm.jaumann.data.functionInterface.Condition;
 
 /**
@@ -29,11 +29,11 @@ public class ConditionFactory {
     private ConditionFactory() {
     }
 
-    public Condition<VulnerableObjekt, Effe> getTimeEffe()
+    public Condition<livingObjekt, Effe> getTimeEffe()
     {
-        return new Condition<VulnerableObjekt, Effe>() {
+        return new Condition<livingObjekt, Effe>() {
             @Override
-            public boolean test(final Effe effekt,final  VulnerableObjekt aim) {
+            public boolean test(final Effe effekt,final livingObjekt aim) {
                 final boolean erg =   effekt.getTime() == 0;
                 if(erg)
                     effekt.apply(aim);
@@ -41,32 +41,26 @@ public class ConditionFactory {
             }
         };
     }
-    public Condition<VulnerableObjekt, UnlimitedEffe> getUlimitedTimeEffe()
+    public Condition<livingObjekt, UnlimitedEffe> getUlimitedTimeEffe()
     {
-        return new Condition<VulnerableObjekt, UnlimitedEffe>() {
-            @Override
-            public boolean test(final UnlimitedEffe effekt, final  VulnerableObjekt aim) {
-                if(effekt.getTime() == 0)
-                {
-                    effekt.apply(aim);
-                    effekt.resetTime();
-                }
-                return false;
+        return (effekt, aim) -> {
+            if(effekt.getTime() == 0)
+            {
+                effekt.apply(aim);
+                effekt.resetTime();
             }
+            return false;
         };
     }
-    public Condition<VulnerableObjekt, CounterEffe> getCounterEffeTimedEnd()
+    public Condition<livingObjekt, CounterEffe> getCounterEffeTimedEnd()
     {
-        return new Condition<VulnerableObjekt, CounterEffe>() {
-            @Override
-            public boolean test(final CounterEffe effekt, final  VulnerableObjekt aim) {
-                if(effekt.getTime() == 0)
-                {
-                    effekt.apply(aim);
-                    effekt.decreaseCount();
-                }
-                return effekt.getCount() == 0;
+        return (effekt, aim) -> {
+            if(effekt.getTime() == 0)
+            {
+                effekt.apply(aim);
+                effekt.decreaseCount();
             }
+            return effekt.getCount() == 0;
         };
     }
 }

@@ -57,4 +57,8 @@ public class PriecingBundle {
                                   this.getMana()+ other.getMana(),
                 other.getFeed() + this.getFeed());
     }
+    public PriecingBundle getOpposite()
+    {
+        return new PriecingBundle(-getGold(),-getWood(),-getStone(),-getMana(),-getFeed());
+    }
 }

@@ -1,6 +1,6 @@
 package edu.hm.jaumann.data;
 
-import edu.hm.jaumann.data.basic.Research;
+import edu.hm.jaumann.data.basic.base.VulnerableObjektPrototype;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -8,32 +8,34 @@ import java.util.Map;
 
 public class Data {
     private static Data ourInstance = new Data();
-    private final Map<String, ConfigurationPrototype> protos;
-    private final Map<String, Research> researches;
+    private final Map<Integer,VulnerableObjektPrototype> protos;
+    private final Map<Integer, Player>playerMap;
     public static Data getInstance() {
         return ourInstance;
     }
 
     private Data() {
         protos = new HashMap<>();
-        researches = new HashMap<>();
+        playerMap = new HashMap<>();
     }
 
 
-    public ConfigurationPrototype getProtos(final String name) {
-        return protos.get(name);
+    public VulnerableObjektPrototype getProtos(final Integer id) {
+        return protos.get(id);
     }
-    public void addPrototye(final String name, final ConfigurationPrototype protos)
+    public void addPrototye(final VulnerableObjektPrototype protos)
     {
-           this.protos.put(name, protos);
+           this.protos.put(protos.getBuildID(), protos);
     }
-    public Research getResearch(final String name) {
-        return researches.get(name);
-    }
-    public void addResearch(final String name, final Research research)
+    public void addPlayer(final Player player)
     {
-        researches.put(name, research);
+        playerMap.put(player.getPlayerID(),player);
     }
+    public Player getPlayer(final int besitzer)
+    {
+        return playerMap.get(besitzer);
+    }
+
 
 }
 

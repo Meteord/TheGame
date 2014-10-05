@@ -4,6 +4,7 @@ import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.FPSLogger;
 import com.badlogic.gdx.graphics.GL20;
+import edu.hm.jaumann.Menus.Screenmanager;
 
 /**
  * /*
@@ -18,10 +19,10 @@ import com.badlogic.gdx.graphics.GL20;
  * getestet unter Win7 Home Premium
  * Created with IntelliJ IDEA.
  */
-public class TheGame extends ApplicationListener {
+public class TheGame implements ApplicationListener {
     public static final String LOG=   TheGame.class.getSimpleName();
     private FPSLogger fpsLogger;
-    private ScreenManager manage;
+    private Screenmanager manage;
     @Override
     public void create() {
         Gdx.app.log( TheGame.LOG, "Creating game" );
