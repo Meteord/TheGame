@@ -1,8 +1,9 @@
-package edu.hm.jaumann.data.basic.base;
+package edu.hm.jaumann.data.basic.base.Units;
 
 import com.badlogic.gdx.math.Vector3;
 import edu.hm.jaumann.data.basic.Effe;
 import edu.hm.jaumann.data.basic.Timer;
+import edu.hm.jaumann.data.basic.base.VulnerableObjekt;
 
 import java.util.Collection;
 

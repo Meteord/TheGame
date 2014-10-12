@@ -1,15 +1,13 @@
-package edu.hm.jaumann.data;
+package edu.hm.jaumann.data.PlayerStuff;
 
+import edu.hm.jaumann.data.MoneyStuff.PriecingBundle;
 import edu.hm.jaumann.data.basic.Timer;
-import edu.hm.jaumann.data.basic.base.Unit;
+import edu.hm.jaumann.data.basic.base.Units.Unit;
 
 import java.util.Map;
 
 public class Player {
-    /**
-     * Gesamtspieleranzahl
-     */
-    private static int playerscount = 0;
+
     /**
      * id des Besitzers
      */
@@ -31,8 +29,8 @@ public class Player {
     public Player(int playerID, Unit king) {
         this.playerID = playerID;
         this.king = king;
-         resources = new PriecingBundle(200,0,0,0,0);
-        playerscount ++;
+        resources = new PriecingBundle(200, 0, 0, 0, 0);
+
     }
 
     public int getPlayerID() {
@@ -44,15 +42,12 @@ public class Player {
     }
 
     /**
-     *  vereinigt die beiden Priecing bundles, will man beispielsweise Ressourcen abziehen müssen
-     *  negative beträge beim bundle genommen werden
-
+     * vereinigt die beiden Priecing bundles, will man beispielsweise Ressourcen abziehen müssen
+     * negative beträge beim bundle genommen werden
      */
-    public void addRessources(final PriecingBundle bundle){
+    public void addRessources(final PriecingBundle bundle) {
         resources = resources.combine(bundle);
     }
 
-    public static int getPlayerscount() {
-        return playerscount;
-    }
+
 }

@@ -1,5 +1,7 @@
 package edu.hm.jaumann.data.basic.base;
 
+import edu.hm.jaumann.data.basic.base.Interfaces.Identifiable;
+
 public class Objekt implements Identifiable {
 
     /**
@@ -12,10 +14,11 @@ public class Objekt implements Identifiable {
     private final int playerID;
 
 
-    public Objekt( int buildID, int playerID) {
+    public Objekt(int buildID, int playerID) {
         this.buildID = buildID;
         this.playerID = playerID;
     }
+
     @Override
     public int getBuildID() {
         return buildID;

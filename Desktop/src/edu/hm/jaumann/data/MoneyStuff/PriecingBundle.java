@@ -1,4 +1,4 @@
-package edu.hm.jaumann.data;
+package edu.hm.jaumann.data.MoneyStuff;
 
 public class PriecingBundle {
     /**
@@ -61,4 +61,32 @@ public class PriecingBundle {
     {
         return new PriecingBundle(-getGold(),-getWood(),-getStone(),-getMana(),-getFeed());
     }
+
+    @Override
+    public String toString() {
+        return "PriecingBundle{" +
+                "gold=" + gold +
+                ", wood=" + wood +
+                ", stone=" + stone +
+                ", mana=" + mana +
+                ", feed=" + feed +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof PriecingBundle)) return false;
+
+        PriecingBundle that = (PriecingBundle) o;
+
+        if (feed != that.feed) return false;
+        if (gold != that.gold) return false;
+        if (mana != that.mana) return false;
+        if (stone != that.stone) return false;
+        if (wood != that.wood) return false;
+
+        return true;
+    }
+
 }
