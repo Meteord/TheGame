@@ -14,7 +14,9 @@ import org.junit.Assert;
 import java.util.HashMap;
 import java.util.Map;
 
-
+/**
+ * Tests IncomeControlThread
+ */
 public class IncomeControlTest {
     private final RoundTimer timer = new RoundTimer(0);
     private final Data data = Data.getInstance();

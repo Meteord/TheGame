@@ -5,29 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0244adf-a7a6-4774-b907-5c63d1da58db" name="Default" comment="IncomeControl fertig&#10;Unit tests fertig">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/tests/IncomeControlTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/PlayerStuff/PlayerData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/base/Interfaces/Producer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/map/Tile.java" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Desktop\Desktop\TheGame\Desktop\src\edu\hm\jaumann\control\GameDaeomon.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Michael\Desktop\Desktop\TheGame\Desktop\src\edu\hm\jaumann\data\Player.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/PlayerStuff/Player.java" />
-      <change type="MOVED" beforePath="C:\Users\Michael\Desktop\Desktop\TheGame\Desktop\src\edu\hm\jaumann\data\PriecingBundle.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/MoneyStuff/PriecingBundle.java" />
-      <change type="MOVED" beforePath="C:\Users\Michael\Desktop\Desktop\TheGame\Desktop\src\edu\hm\jaumann\data\TimedPriecingBundle.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/MoneyStuff/TimedPriecingBundle.java" />
-      <change type="MOVED" beforePath="C:\Users\Michael\Desktop\Desktop\TheGame\Desktop\src\edu\hm\jaumann\data\basic\base\Building.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/base/Building/Building.java" />
-      <change type="MOVED" beforePath="C:\Users\Michael\Desktop\Desktop\TheGame\Desktop\src\edu\hm\jaumann\data\basic\base\Identifiable.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/base/Interfaces/Identifiable.java" />
-      <change type="MOVED" beforePath="C:\Users\Michael\Desktop\Desktop\TheGame\Desktop\src\edu\hm\jaumann\data\basic\base\Unit.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/base/Units/Unit.java" />
-      <change type="MOVED" beforePath="C:\Users\Michael\Desktop\Desktop\TheGame\Desktop\src\edu\hm\jaumann\data\basic\base\informational.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/base/Interfaces/informational.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/Data.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/Data.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Desktop/Desktop.iml" afterPath="$PROJECT_DIR$/Desktop/Desktop.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/DesktopMain.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/DesktopMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/control/Direction.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/control/Direction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/control/DirectionType.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/control/DirectionType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/control/IncomeControl.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/control/IncomeControl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/base/Infos.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/base/Infos.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/base/Objekt.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/base/Objekt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/Config/ObjektXMLmaker.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/Config/ObjektXMLmaker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/control/RoundTimer.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/control/RoundTimer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/base/VulnerableObjektPrototype.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/base/VulnerableObjektPrototype.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/tests/IncomeControlTest.java" afterPath="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/tests/IncomeControlTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TheGAme.iws" />
@@ -94,11 +72,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IncomeControl.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="IncomeControl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/control/IncomeControl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6081081" vertical-offset="115" max-vertical-offset="2006">
-              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="2006">
+              <caret line="90" column="10" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DesktopMain.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/DesktopMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1054">
+              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -117,7 +105,7 @@
       <file leaf-file-name="PriecingBundle.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/MoneyStuff/PriecingBundle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="602" max-vertical-offset="1496">
+            <state vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="1496">
               <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
               <folding />
             </state>
@@ -134,11 +122,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IncomeControlTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="IncomeControlTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/tests/IncomeControlTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="349" max-vertical-offset="1139">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.218509" vertical-offset="0" max-vertical-offset="1173">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -149,16 +137,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="374">
               <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Direction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/control/Direction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="306">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -272,8 +250,8 @@
         <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/PlayerData.java" />
         <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/control/GameDaeomon.java" />
         <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/map/Tile.java" />
-        <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/tests/IncomeControlTest.java" />
         <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/control/IncomeControl.java" />
+        <option value="$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/tests/IncomeControlTest.java" />
       </list>
     </option>
   </component>
@@ -817,17 +795,21 @@
       <workItem from="1413016549576" duration="13511000" />
       <workItem from="1413057194406" duration="1378000" />
       <workItem from="1413105802763" duration="1081000" />
-      <workItem from="1413107683848" duration="1811000" />
+      <workItem from="1413107683848" duration="2710000" />
     </task>
     <task id="LOCAL-00001" summary="Control erweitert / aufräumen">
       <created>1412519914560</created>
       <updated>1412519914560</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="IncomeControl fertig&#10;Unit tests fertig">
+      <created>1413109522915</created>
+      <updated>1413109522915</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51723000" />
+    <option name="totallyTimeSpent" value="52622000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -862,13 +844,13 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39940828" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2489019" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31761006" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3081761" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3081761" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3081761" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25718608" sideWeight="0.50121653" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31132075" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31761006" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31761006" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2489019" sideWeight="0.49769586" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1236,14 +1218,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/DesktopMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1275">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/data/basic/DamageMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1156">
@@ -1343,18 +1317,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/tests/IncomeControlTest.java">
+    <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/DesktopMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="349" max-vertical-offset="1139">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1275">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/control/IncomeControl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6081081" vertical-offset="115" max-vertical-offset="2006">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="2006">
+          <caret line="90" column="10" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Desktop/src/edu/hm/jaumann/tests/IncomeControlTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.218509" vertical-offset="0" max-vertical-offset="1173">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding />
         </state>
       </provider>
